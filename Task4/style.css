@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #5fc4ff1f;
+    font-family: "Roboto", sans-serif;
+    font-variation-settings:"wdth" 100;
+}
+
+
+.header {
+    height: 12vh;
+    width: 100%;
+    background-color: #2269b1e4;
+    padding: 5px 0;
+}
+
+.header h1{
+    color: #fff;
+    text-align: center;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 1.7rem;
+    margin: 7px 0;
+}
+
+.header p {
+    color: #fff;
+    text-align: center;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.about {
+    background-color: #effdffe8;
+    color: #2269b1e4;
+    height: 19vh;
+    width: 83%;
+    overflow: auto;
+    position: relative;
+    left: 8vw;
+    top: 2vh;
+    border: 1.5px solid #2269b1e4;
+}
+
+.about h3 {
+    border: inherit;
+    margin: 20px 8px 10px 8px;
+    font-size: 1rem;
+    font-weight: 800;
+    color: rgb(34, 78, 140);
+}
+
+.about p {
+    margin: 8px;
+    line-height: 1.6;
+    font-size: 0.56rem;
+    font-weight: 450;
+}
+
+.skills {
+    padding: 15px 15px 10px;
+    margin: 10px 0 0;
+}
+
+.skills h3 {
+    padding-bottom: 15px;
+    color: rgb(34, 78, 140);
+    font-weight: 850;
+}
+
+.skills ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.skills ul li {
+    margin-bottom: 3px;
+}
+
+.projects {
+    height: 60vh;
+    width: 90%;
+    border: 1px dashed #2269b1e4;
+    position: relative;
+    left: 5vw;
+    background-color: #fff;
+    margin: 7px 0;
+}
+
+.projects h3 {
+    color: rgb(34, 78, 140);
+    margin: 28px 15px 10px;
+}
+
+
+.projects .container {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.card {
+    display: inline-block;
+    width: 220px; 
+    height: 30vh;
+    margin: 0 15px; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgb(53, 151, 221);
+    vertical-align: top; 
+    text-align: center;
+}
+
+.card a{
+    display: block;
+    font-weight: 800;
+    color: rgb(34, 78, 140);
+}
+
+.card img {
+    height: 10vh;
+    border: 1px solid rgb(72, 215, 240);
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: #5fc4ff1f;
+}
+
+.card p {
+    line-height: 1.5;
+    text-align: left;
+    padding-top: 5px;
+    font-size: 82%;
+}
+
+.projects button {
+    width: 5%;
+    padding: 5px;
+    background-color: #1b89dde8;
+    color: #fff;
+    opacity: 80%;
+    border-radius: 5px;
+    border: none;
+    margin: 5px 15px;
+    cursor: pointer;
+}
+
+footer {
+    height: 5vh;
+    background-color: #2269b1e4;
+    text-align: center;
+}
+
+footer div {
+    color: #fff;
+    font-size: 0.8rem;
+    padding-top: 10px;
+}
